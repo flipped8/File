@@ -1,0 +1,6 @@
+实习内容：负责MaxFrame计算引擎的引擎侧功能设计与研发以及管控链路的开发
+主要工作：
+GU售卖链路的设计与实现，按照用户的购买额度与作业需求拉起相应资源，减轻用户的配置工作
+DPE引擎与MCSQL引擎的算子实现，实现了DPE引擎的to_numeric，readcsv算子和MCSQL引擎的pivot_table、extract_KV、to_KV算子，扩展了引擎的功能
+DAG拆分算法优化以及ProjectionMerge算法优化，实现了两类算法的优化提高了DAG拆分和ProjectionMerge的效率的同时避免了环路问题，提高整体执行效率
+MARS到DPE的算子迁移，使用AI工具完成了大量的MARS算子到DPE算子的迁移，极大的提高了DPE引擎的算子覆盖率
